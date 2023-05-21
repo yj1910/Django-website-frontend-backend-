@@ -4,5 +4,5 @@ In this repo. I have created a ice-crem parlour website by using python, django 
 1. Need to install vs code and python in your system. After that open vs code and install python  and django plugins.
 2. 
 
-Looks like-
-![Uploading image.png…]()
+##### Check the Looks like file to see website looks like-
+
