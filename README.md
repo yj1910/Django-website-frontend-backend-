@@ -6,7 +6,9 @@ Belows are the steps to download the project in your local system
 3. Check the link how to clone gihub project to local pc https://www.instructables.com/Downloading-Code-From-GitHub/.
 4. Open terminal in vs code Terminal>New Terminal. Go to the location where you clone the project in your local system.
 5. NOw run the command to see the preview of the project
-   ''''python manage.py runserver''''
+   ''''
+   python manage.py runserver
+    ''''
 
 ##### Check the Looks like file to see website looks like-
 
