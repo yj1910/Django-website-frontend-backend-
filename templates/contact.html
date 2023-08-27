@@ -6,29 +6,30 @@
 </div>
 
 
-<div class="container mb-3 py-4">
-    <h1 class="text-center">Contact Us</h1>
-    <form method="post" action="/contact">
+<div class="container mb-4 py-10">
+    <h1 class="text-center" style="color:#FF1493">Contact Us</h1>
+    <form method="post" action="/contact">   
     {% csrf_token %}
         <div class="form-group">
             <label for="name">Name</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name">
         </div>
-
+        <br>
         <div class="form-group">
             <label for="email">Email address</label>
             <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email">
         </div>
-        
+        <br>
         <div class="form-group">
             <label for="phone">Phone Number</label>
             <input type="phone" class="form-control" id="phone" name="phone" placeholder="Enter Your Phone Number">
         </div>      
-        
+        <br>
         <div class="form-group">
-            <label for="desc">Tell me about what you want to contact me for...</label>
-            <textarea class="form-control" id="desc" rows="3" name="desc"></textarea>
+            <label for="desc">Tell Us about your query</label>
+            <textarea class="form-control" id="desc" rows="3" name="desc" placeholder="Typing here we will reach out to you.."></textarea>
         </div>
+        <br>
         <button class="btn btn-primary" type="submit">Submit</button>
     </form>
 

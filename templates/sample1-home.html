@@ -1,6 +1,7 @@
 {% extends 'Base.html' %}
 
 {%block body%}
+<!--carousel of website-->
 <div class="container-fluid px-0 mb-2">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -10,43 +11,46 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="/static/1.jfif" class="d-block w-100" alt="...">
+                <img src="/static/1.jfif", width = "1000", height = "570" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-            <h5>Welcome to the best Ice Cream Brand</h5>
-            <p>I know you eat icecreams but I know you have not eaten my icecream so please eat my icecrem</p>
+            <h2>Welcome to the best Ice Cream Brand</h2>
+            <h5>I know you eat icecreams but I know you have not eaten my icecream so please eat my icecrem</h5>
         </div>
         </div>
         <div class="carousel-item">
-              <img src="/static/2.jfif" class="d-block w-100" alt="...">
+              <img src="https://source.unsplash.com/1600x600/?icecreams", width = "1000", height = "570" class="d-block w-100" alt="...">
 
         <div class="carousel-caption d-none d-md-block">
-            <h5>We serve love with our Ice Creams</h5>
-            <p> World Famous Best Ice creams.</p>
+            <h2>We serve love with our Ice Creams</h2>
+            <h5> World Famous Best Ice creams.</h5>
         </div>
         </div>
         <div class="carousel-item">
-        <img src="/static/3.jfif" class="d-block w-100" alt="...">
+        <img src="https://source.unsplash.com/1600x600/?ice-creams", width = "1000", height = "570" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-            <h5>Quality is our priority</h5>
+            <h2>Quality is our priority</h2>
             <p></p>
         </div>
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only" style="color: black;">Previous</span>
+        <span class="sr-only" style="color: #000000;">Previous</span>
     </a>
     <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only" style="color: black;">Next</span>
+        <span class="sr-only" style="color: #000000;">Next</span>
     </a>
     </div>
+  </div>
 </div>
 
-<h1 class= "my4 text-center" >Welcome to ICE CREAM World </h1>
-<h3 class= "my4 text-center" >Categories </h3>
+<!--TEXT-->
+<h1 class= "my4 text-center" style="color:#f05098"  >Welcome to ICE CREAM World </h1>
+<h2 class= "my4 text-center" >Categories </h2>
 
-<div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+<!--picture widget-->
+<div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 px-3">
     <div class="col">
       <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://source.unsplash.com/420x400/?icecream');">
         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -105,6 +109,66 @@
       </div>
     </div>
   </div>
+</div>
 
 
+
+<!--TEXT-alltime fav-->  
+<div class="container">
+  <div class="text-center py-25 md:py-25 px-10 text-blue pd-10">
+    <div class="container">
+      <h1 class="relative who-we-are__heading text-4xl md:text-6xl font-bold inline-block px-15 md:px-12 color-type-1" style="color:#f05098">
+          <span class="absolute bottom-4 left-0"></span>
+          All Time
+          <span class="color-type-2" style="color:#402022">Favorites</span>
+          <span class="absolute top-5 right-0"></span>
+      </h1>
+    </div>
+  </div>
+</div>
+
+
+<!--below all time fav-->  
+<main>
+
+ 
+<div class="container py-4">
+
+  <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">Our Best
+        <span class="color-type-2" style="color:#f05098">Products</span>
+      </h1>
+      <p class="col-md-8 fs-4">Celebrating the festive season with good food and love: Here's what to pick for your loved ones.</p>
+      <button class="btn btn-info btn-lg" type="button" onclick="window.location.href='/product';">Our products</button>
+    </div>
+  </div>
+
+  <div class="row align-items-md-stretch">
+    <div class="col-md-6">
+      <div class="h-100 p-5 text-bg-info rounded-3">
+        <h2>
+          <span class="color-type-2" >Change the background</span>
+        </h2>
+        <p>Here Are 7 Delicacies To Satiate Those Summer Cravings Before The Season Comes To A Close.</p>
+        <button class="btn btn-outline-light" type="button" onclick="window.location.href='/about';"> About Us</button>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="h-100 p-5 bg-body-tertiary border rounded-3"  >
+        <h2>
+          <span class="color-type-2" style="color:#f05098">5 new ice cream flavours</span>
+        </h2>
+        <p>Five new ice cream flavours to elevate your dessert menu this summer.</p>
+        <button class="btn btn-outline-secondary" type="button" onclick="window.location.href='/about';">Our Products</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
 {%endblock body%}
