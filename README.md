@@ -1,4 +1,4 @@
-# Django-website-frontend-backend-
+# Read Me
 In this repo. I have created a ice-crem parlour website project by using python, django framework and using a sqlite3 database as a database.
 Belows are the steps to download the project in your local system
 1. Install python and vs code editor in your system. After installing install django open cmd write ```` pip install django ````
