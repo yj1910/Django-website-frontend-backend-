@@ -21,5 +21,4 @@ python manage.py migrate
 python manage.py runserver
 ```
 open http://127.0.0.1:8000/ on your browser
-##### Check the Looks like file to see website looks like-
 
