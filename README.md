@@ -1,3 +1,9 @@
+# Website overview-
+
+https://github.com/yj1910/Ice-Cream-parlour-Website/assets/83238190/c2941ef9-320b-46b3-99c3-97b3f2e8e11b
+
+
+
 # Local setup
 In this repo. I have created a ice-crem parlour website project by using python, django framework and using a sqlite3 database as a database.
 Belows are the steps to download the project in your local system\
